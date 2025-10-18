@@ -1,18 +1,19 @@
 {
   "name": "German Word Cloud",
+  "organization": "diggejos",
   "description": "Word cloud that removes German stop words",
-  "author": "Your Name",
-  "version": "1.0.0",
-  "visualization": {
-    "script": "wordcloud.js",
-    "css": "styles.css"
+  "logoUrl": "https://diggejos.github.io/wordcloud-viz/Wordcloud/logo.png",
+  "resources": {
+    "js": ["wordcloud.js"],
+    "css": ["styles.css"]
   },
   "components": [
-    {"id": "wordcloud", "name": "Word Cloud"}
+    {
+      "id": "wordcloud",
+      "name": "Word Cloud",
+      "description": "A word cloud visualization for German text"
+    }
   ],
-  "supports": {
-    "dimensions": true,
-    "metrics": true
-  },
-  "allowHtml": true
+  "version": "1.0.0",
+  "devMode": true
 }
