@@ -2,10 +2,14 @@
   "name": "German Word Cloud",
   "organization": "diggejos",
   "description": "Word cloud that removes German stop words",
-  "logoUrl": "https://diggejos.github.io/wordcloud-viz/Wordcloud/logo.png",
+  "logoUrl": "https://diggejos.github.io/wordcloud-viz/logo.png",
   "resources": {
-    "js": ["wordcloud.js"],
-    "css": ["styles.css"]
+    "js": [
+      "https://raw.githubusercontent.com/diggejos/wordcloud-viz/main/wordcloud.js"
+    ],
+    "css": [
+      "https://raw.githubusercontent.com/diggejos/wordcloud-viz/main/styles.css"
+    ]
   },
   "components": [
     {
