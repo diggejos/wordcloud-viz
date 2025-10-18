@@ -1,0 +1,18 @@
+{
+  "name": "German Word Cloud",
+  "description": "Word cloud that removes German stop words",
+  "author": "Your Name",
+  "version": "1.0.0",
+  "visualization": {
+    "script": "wordcloud.js",
+    "css": "styles.css"
+  },
+  "components": [
+    {"id": "wordcloud", "name": "Word Cloud"}
+  ],
+  "supports": {
+    "dimensions": true,
+    "metrics": true
+  },
+  "allowHtml": true
+}
